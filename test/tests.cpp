@@ -1,8 +1,8 @@
 // Copyright 2025 UNN-CS
 
-#include "alg.h"
-#include <cstdint>
 #include <gtest/gtest.h>
+#include <cstdint>
+#include "alg.h"
 
 TEST(st1, checkPrimeTrue) { EXPECT_TRUE(checkPrime(23)); }
 
